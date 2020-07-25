@@ -1,0 +1,9 @@
+# REACT
+
+1. Knows how to work with components
+2. Called a "Reconciler"
+
+#ReactDOM
+
+1. Knows how to take instructions on what we want to show and turn it into HTML
+2. Called a "Renderer".
