@@ -1,9 +1,40 @@
 # REACT
-
 1. Knows how to work with components
 2. Called a "Reconciler"
 
 #ReactDOM
-
 1. Knows how to take instructions on what we want to show and turn it into HTML
 2. Called a "Renderer".
+
+#useState
+1. Function for working with React's state system
+2. State is used to keep track of data that changes over time.
+3. Used to make React update the HTML on the screen. 
+
+#Commands:
+1. a. npx create-react-app <myapp>
+    If Error: npm uninstall -g create-react-app
+
+1. b. npm install -g create-react-app
+      create-react-app <my-app> 
+3. 
+
+
+#Project Structure:
+1. src : Folder where we put all the source code
+2. public : Folder that stores static files , images
+3. node_modules : Folder that contains dependencies
+4. package.json : Records our project dependencies and configure our project
+5. package-lock.json : Records the exact version of packages that we install
+
+#Component: 
+1. It's a function or a class that produces HTML to show the user (Using JSX)
+2. Handles feedback from the user (Using Event handlers)
+ 
+ // 3 tenets of components
+    * Nesting 
+    * Reusability
+    * Configuration
+
+
+     
