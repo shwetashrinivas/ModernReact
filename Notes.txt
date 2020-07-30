@@ -36,5 +36,41 @@
     * Reusability
     * Configuration
 
+#Functional Components: Hooks System
+1. Can produce JSX to show content to user
+2. Can use hooks to run code at specific points in time
+3. Can you Hooks to access state system and update content on screen.
 
-     
+#Class Components:
+1. Can produce JSX to show content to user
+2. Can use Lifecycle Method to run code at specific points in time
+3. Can use 'state' system to update content on screen
+4. Must be a JS Class
+5. Must extend (subclass) React.Component
+6. Must define a render method that returns some JSX
+
+#State:
+1. Only usable with class components.
+2. It is a JS object that contains data relevant to a component
+3. Updating state causes the component to instantly re-render
+4. State must be initialised when a component is created.
+5. Dont confuse with props!
+6. State can only be updated using the setState()
+
+
+#Component Lifecycle:
+1. constructor
+2. render
+...content visible on screen...
+3. componentDidMount
+...sit and wait for updates
+4. componentDidUpdate...
+..sit and wait until this component is no longer shown...
+5. componentWillUnmount
+
+//Other Lifecycle methods
+1. shouldComponentUpdate
+2. getDerivedStateFromProps
+3. getSn apshotBeforeUpdate
+
+

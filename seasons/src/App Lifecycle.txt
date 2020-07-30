@@ -1,0 +1,13 @@
+1. JS File loaded by browser
+2. Instance of App component is created.
+3. App component 'constructor' function gets called
+4. State obj is created and assigned to the this.state property
+5. We call geolocation service
+6. React calls the components render()
+...
+7. We get result of geolocation
+8. We update our state obj with a call to this.setState
+9. React sees that we updated the state of a component
+10. React calls our render() the second time
+11. render() returns some updated JSX
+12. react takes that JSX and updates content on screen.

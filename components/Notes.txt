@@ -2,3 +2,7 @@
 1. Identify the JSX that appears to be duplicated.
 2. Create a new component in the new file, paste the JSX into it.
 3. Make the new component configurable by using React's "props" system.
+
+
+#Props
+1. System for passing data from a parent component to a child component.
