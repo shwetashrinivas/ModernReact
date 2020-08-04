@@ -1,0 +1,8 @@
+# Controlled Elements Flow:
+1. User types in input
+2. Callback gets involved
+3. We call setState with the new value
+4. Component re-renders
+5. Input is told what its value is (coming from state)
+
+# Uncontrolled Elements:
